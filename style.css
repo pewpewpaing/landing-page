@@ -4,7 +4,8 @@ body {
 }
 
 .header,
-.hero-section {
+.hero-section,
+.footer {
     background-color: #1F2937;
 }
 
@@ -121,4 +122,10 @@ button {
     text-align: end;
     font-weight: 900;
     margin-right: 30px;
+}
+
+.footer {
+    padding: 40px;
+    text-align: center;
+    color: #DDD;
 }
