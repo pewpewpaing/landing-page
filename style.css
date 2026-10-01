@@ -124,8 +124,34 @@ button {
     margin-right: 30px;
 }
 
+.call-to-action-container {
+    margin: 100px 200px;
+}
+
+.call-to-action {
+    padding: 55px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+}
+
 .footer {
     padding: 40px;
     text-align: center;
     color: #DDD;
+}
+
+.btn.btn-inverted {
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+.call-to-action .main {
+    font-weight: 700;
+    color: #F9FAF8;
+    font-size: 1.2rem;
+}
+
+.call-to-action .secondary {
+    color: #E5E7EB;
 }
